@@ -1,11 +1,7 @@
 *{margin:0; padding: 0; box-sizing: border-box;}
 
 body{background-color: transparent;}
-#navbar {display: none;
-    background: #fff;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
-}
+
 a{display: inline; color: #000; text-decoration: none;}
 a:hover{text-decoration: none;}
 h1{font-family: "futura-pt", sans-serif;}
@@ -18,4 +14,7 @@ footer a{padding: 0 15px;}
 footer a:hover{opacity: 0.5;}
 .padding-footer{padding-bottom: 5%;}
 
- 
+  @media (min-width: 1300px) and (max-width: 1400px){
+   .welcome{width: 60%;}
+   .about{width: 80%;}
+ }
