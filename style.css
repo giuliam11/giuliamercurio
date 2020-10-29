@@ -208,3 +208,7 @@ a:hover{text-decoration: none;}
    .welcome{width: 60%;}
    .about{width: 80%;}
  }
+footer a{padding: 0 15px;}
+footer a:hover{opacity: 0.5;}
+.padding-footer{padding-bottom: 5%;}
+
