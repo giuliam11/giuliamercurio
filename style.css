@@ -1,6 +1,11 @@
 *{margin:0; padding: 0; box-sizing: border-box;}
 
-body{background: black;}
+body{margin:0;
+    padding:0;
+    background:#fefefe;
+    font-family:Lato,"Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:400;line-height:1.5;color:#0a0a0a;
+    -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .top-bar topbar-responsive top-bar-wrapper{padding: 0 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
