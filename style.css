@@ -12,4 +12,10 @@ h1{font-family: "futura-pt", sans-serif;}
 a, h2, h3, h4, p, li {font-family: "Futura-pt", sans-serif; color:#000;}
 section { text-align: center;
 }
-  
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
