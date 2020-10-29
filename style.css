@@ -6,11 +6,12 @@ body{background-color: transparent;}
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
 }
-a{display: inline; color: #fff; text-decoration: none;}
+a{display: inline; color: #000; text-decoration: none;}
 a:hover{text-decoration: none;}
 h1{font-family: "futura-pt", sans-serif;}
 a, h2, h3, h4, p, li {font-family: "Futura-pt", sans-serif; color:#000;}
 .welcome { text-align: center;
+   padding: 10 10 10 10; 
 }
 .welcome p {
     display: inline-block;
