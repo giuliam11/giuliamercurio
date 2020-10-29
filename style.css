@@ -10,9 +10,9 @@ a{display: inline; color: #fff; text-decoration: none;}
 a:hover{text-decoration: none;}
 h1{font-family: "futura-pt", sans-serif;}
 a, h2, h3, h4, p, li {font-family: "Futura-pt", sans-serif; color:#000;}
-section { text-align: center;
+.welcome { text-align: center;
 }
-p {
+.welcome p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
