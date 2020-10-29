@@ -67,4 +67,7 @@ a, h2, h3, h4, p, li {font-family: "Selawik Light", sans-serif; color:#fff;}
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+.topbar-responsive-logo img {
+    height: 200px;
+  width: 50%;
+}
