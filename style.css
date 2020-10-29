@@ -1,6 +1,6 @@
 *{margin:0; padding: 0; box-sizing: border-box;}
 
-body{background-color: #000;}
+body{background-color: black;}
 a{display: inline; color: #fff; text-decoration: none;}
 a:hover{text-decoration: none;}
 hr{border-color: white; opacity: 0.5;}
@@ -44,7 +44,7 @@ a, h2, h3, h4, p, li {font-family: "Selawik Light", sans-serif; color:#fff;}
     left: 0;
     width: 100%;
     line-height: 1em;
-    background-color: #212121;
+    background-color: black;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     position: relative;
