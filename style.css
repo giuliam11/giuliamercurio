@@ -10,16 +10,10 @@ a{display: inline; color: #000; text-decoration: none;}
 a:hover{text-decoration: none;}
 h1{font-family: "futura-pt", sans-serif;}
 a, h2, h3, h4, p, li {font-family: "Futura-pt", sans-serif; color:#000;}
-.welcome { text-align: center;
+.welcome p{ text-align: center;
    padding: 10 10 10 10; 
 }
-.welcome p {
-    display: inline-block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 #about {
   display: flex;
   flex-direction: column;
