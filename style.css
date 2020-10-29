@@ -197,9 +197,16 @@ a:hover{text-decoration: none;}
   width: 40%;
   border-radius: 5px;
 }
-
-.box-about1,.box-about2,.box-about3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.padding-card-1 {
+    padding-top: 5%;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 
