@@ -12,7 +12,7 @@ a, h2, h3, h4, p, li {font-family: "Futura-pt", sans-serif; color:#000;}
 }
 #about-h3{text-align: left; font-size: 22px; font-weight: bold;}
 #about p{text-align: left; font-size: 18px;}
-#about{display: block; overflow: hidden; background: rgb(255, 255, 255, 0.3);  padding: 40px; text-align: center; border: 1px solid #fff; border-radius: 5px; width: 80%;}
+#about ul,li{display: block; overflow: hidden; background: rgb(255, 255, 255, 0.3);  padding: 40px; text-align: center; border: 1px solid #fff; border-radius: 5px; width: 80%;}
 
 footer a{padding: 0 15px;}
 footer a:hover{opacity: 0.5;}
