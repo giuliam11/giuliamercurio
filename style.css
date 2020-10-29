@@ -1,8 +1,15 @@
 *{margin:0; padding: 0; box-sizing: border-box;}
 
-body{background-color: #fff;}
+body{background-color: transparent;}
+#navbar {display: none;
+    background: #fff;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
 a{display: inline; color: #fff; text-decoration: none;}
 a:hover{text-decoration: none;}
 h1{font-family: "futura-pt", sans-serif;}
 a, h2, h3, h4, p, li {font-family: "Futura-pt", sans-serif; color:#000;}
-
+section { text-align: center;
+}
+  
