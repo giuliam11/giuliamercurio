@@ -4,8 +4,7 @@ body{background-color: transparent;}
 
 a{display: inline; color: #000; text-decoration: none;}
 a:hover{text-decoration: none;}
-h1{font-family: sans-serif;}
-a, h2, h3, h4, p, li {font-family: sans-serif; color:#000;}
+
 
 *,
 *::before,
@@ -47,7 +46,7 @@ a, h2, h3, h4, p, li {font-family: sans-serif; color:#000;}
 
 .container .logo a img {
   max-width: 100%;
-  max-height: 60px;
+  max-height: 80px;
 }
 
 .container .navbar {
@@ -75,7 +74,7 @@ a, h2, h3, h4, p, li {font-family: sans-serif; color:#000;}
 
 .container .navbar ul li a {
   text-decoration: none;
-  color: #999999;
+  color: #000;
   font-size: 14px;
   text-transform: uppercase;
   display: block;
@@ -87,7 +86,7 @@ a, h2, h3, h4, p, li {font-family: sans-serif; color:#000;}
 
 .container .navbar ul li a:hover {
   color: #ffffff;
-  background-color: rgba(23, 23, 23, 0.9);
+  background-color: transparent;
 }
 
 .container .navbar ul .close {
