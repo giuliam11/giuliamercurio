@@ -1,92 +1,82 @@
-html,
+/* CSS Variables */
+:root {
+  --primary: #ddd;
+  --dark: #0f0f0f;
+  --dark2: #141516;
+  --light: #fff;
+  --grey: rgb(233, 233, 233);
+  --shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.08);
+  
+  --transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+  --gradient: linear-gradient(73deg, rgba(75, 45, 176, 1), hsl(257, 53%, 56%));
+}
+/*  ---------------------- */
+/* Body Styles */
+/*  ---------------------- */
 body {
-    height: 100%;
+  margin: 0 0;
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    color: rgba(0,0,0, .7);
-}
-.section-padding {
-    padding: 70px 0;
-}
-.section-head {
-    padding-bottom: 40px;
-    text-align: center;
-}
-.section-head > h3 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 28px;
-}
+
+/*  ---------------------- */
+/* Header / Navigation Section */
+/*  ---------------------- */
 
 header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-nav.navbar.navbar-default.navbar-fixed-top {
-    background: transparent;
-}
-nav.navbar.navbar-default {
-    border: none;
-}
-.header-menu {
-    padding: 10px 0;
-    color: #fff;
-}
-.navbar-default .navbar-brand {
-    color: rgba(255,255,255, .7);
-}
-.navbar-default .navbar-brand:hover {
-    color: #fff;
+  min-height: 80px;
+  width: 100%;
+  background: var(--light);
 }
 
-#main-menu ul li a {
-    color: #fff;
-    border-bottom: 2px solid transparent;
-    transition: all .4s ease;
-}
-#main-menu ul li a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-
-
-.main-top {
-    background: url("https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    display: table;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-.main-top-content {
-    display: table-cell;
-    vertical-align: middle;
-    color: #fff;
-}
-.main-top-content > h2 {
-    font-size: 35px;
-}
-.main-top-content > h2 span {
-    text-transform: uppercase;
-}
-.main-top-content > p {
-    font-size: 20px;
-}
-.main-top-content ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.main-top-content ul li {
-    display: inline-block;
-    padding: 10px;
+.header-grid {
+  max-width: 1224px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1em;
+  display: grid;
+  min-height: 80px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
+header a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 16px;
+  margin-left: 2em;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 0 0 0;
+}
+
+header img {
+  height: auto;
+  max-width: 182px;
+}
+
+.header-logo {
+  display: grid;
+  align-content: center;
+  justify-content: start;
+}
+
+.main-nav {
+  display: grid;
+  align-content: center;
+  justify-content: end;
+}
 /*  ---------------------- */
 /* Hero Section */
 /*  ---------------------- */
