@@ -1,22 +1,12 @@
-$(document).ready(function () {
-    // Open in new window
-        $('.click').each(function() {
-        var link = $(this).html();
-        $(this).contents().wrap('<a href="google.com"></a>');
-        });
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        var menu_selector = $("nav.navbar.navbar-default.navbar-fixed-top")
+        if( scroll >= 100 ) {
+           $(menu_selector).css("background" , "rgba(0,0,0, .6)");
+           } else {
+               $(menu_selector).css("background" , "");
+           }
+    });
+    
 });
-
-// Make Card One Clickable
-function projectOne() {
-    window.open;
-}
-
-// Make Card Two Clickable
-function projectTwo() {
-    window.open;
-}
-
-// Make Card Three Clickable
-function projectThree() {
-    window.open;
-}
