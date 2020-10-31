@@ -36,7 +36,7 @@ header a { float: left;
   
 }
 header a:hover {
-  background-color: #;
+  background-color: #825;
   color: black;
 }
 header a.active {
