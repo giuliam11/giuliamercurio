@@ -1,8 +1,8 @@
 /* CSS Variables */
 :root {
   --primary: #ddd;
-  --dark: #0f0f0f;
-  --dark2: #141516;
+  --dark: #000;
+  --dark2: #000;
   --light: #fff;
   
 }
@@ -36,7 +36,7 @@ header a { float: left;
   
 }
 header a:hover {
-  background-color: #825;
+  background-color: rgb (144, 96, 144);
   color: black;
 }
 header a.active {
@@ -78,7 +78,7 @@ header li {
 
 header img {
   height: auto;
-  max-width: 182px;
+  max-width: auto;
 }
 
 .header-logo {
@@ -100,7 +100,7 @@ header img {
   display: grid;
   align-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  background-color: #000;
+  color: #000;
 
 background-repeat: no-repeat;
   background-position: center;
