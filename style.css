@@ -78,7 +78,7 @@ header li {
 
 header img {
   height: auto;
-  max-width: auto;
+  max-width: 190px;
 }
 
 .header-logo {
