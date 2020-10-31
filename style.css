@@ -4,12 +4,7 @@
   --dark: #0f0f0f;
   --dark2: #141516;
   --light: #fff;
-  --grey: rgb(233, 233, 233);
-  --shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
-  --box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.08);
   
-  --transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
-  --gradient: linear-gradient(73deg, rgba(75, 45, 176, 1), hsl(257, 53%, 56%));
 }
 /*  ---------------------- */
 /* Body Styles */
@@ -144,6 +139,9 @@ font-size: 60px;
   margin-top: 6em;
   margin-bottom: 6em;
 }
+.about-section p{
+  font-size: 30px;
+}
 
 .about-grid {
   display: grid;
@@ -215,21 +213,21 @@ font-size: 60px;
 
 .card-1 {
   grid-area: one;
-  background-image: url('https://i.ibb.co/cc5gg3W/project1.jpg');
+  background-image: url('https://github.com/giuliam11/giuliamercurio/blob/master/images/nacho-rochon-CG7YwmRDGvI-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-2 {
   grid-area: two;
-  background-image: url('https://i.ibb.co/hZGQf1W/project2.jpg');
+  background-image: url('https://github.com/giuliam11/giuliamercurio/blob/master/images/nacho-rochon-CG7YwmRDGvI-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-3 {
   grid-area: three;
-  background-image: url('https://i.ibb.co/xsn94Lr/project4.jpg');
+  background-image: url('https://github.com/giuliam11/giuliamercurio/blob/master/images/nacho-rochon-CG7YwmRDGvI-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
