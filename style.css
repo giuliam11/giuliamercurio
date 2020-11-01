@@ -132,11 +132,11 @@ font-size: 60px;
 
 
 
-.about-section {
+#about-section {
   margin-top: 6em;
   margin-bottom: 6em;
 }
-.about-section p{
+#about-section p{
   font-size: 30px;
 }
 
@@ -248,7 +248,7 @@ background-image: url('images/about.jpg');
 
 #lab_social_icon_footer {
   padding: 40px 0;
-  background-color: #dedede;
+  
 }
 
 #lab_social_icon_footer a {
