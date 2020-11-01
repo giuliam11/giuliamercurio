@@ -49,6 +49,7 @@ header ul {
   list-style: none;
   text-decoration: none;
 }
+  
 .header-grid {
   max-width: 1224px;
   margin-right: auto;
@@ -98,7 +99,7 @@ header img {
   display: grid;
   align-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  background-image: url ('images/wallpaper.jpg');
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -123,20 +124,22 @@ header img {
   margin-top: 0;
   margin-bottom: 0.3em;
 }
-
+  
+*//*
 .hero p {
 font-size: 60px;
     align-self: end;
     margin: .3em;
 }
+*//
 
 
-
-#about-section {
+.about-section {
   margin-top: 6em;
   margin-bottom: 6em;
 }
-#about-section p{
+  
+.about-section p{
   font-size: 30px;
 }
 
@@ -242,32 +245,6 @@ background-image: url('images/about.jpg');
   padding-left: 48px;
   margin-bottom: 1.3em;
   pointer-events: none;
-}
-
-#contact {
-  padding: 40px 0;
-  
-}
-
-#contact a {
-  color: #333;
-}
-
-#contact .social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-
-#contact .social {
-  -webkit-transform: scale(0.8);
-  /* Browser Variations: */
-  
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
 }
 
 
