@@ -1,11 +1,4 @@
-/* CSS Variables */
-:root {
-  --primary: #ddd;
-  --dark: #000;
-  --dark2: #000;
-  --light: #fff;
-  
-}
+
 /*  ---------------------- */
 /* Body Styles */
 /*  ---------------------- */
@@ -36,7 +29,7 @@ header a { float: left;
   
 }
 header a:hover {
-  background-color: rgb (144, 96, 144);
+  background-color: #ffadfe;
   color: black;
 }
 header a.active {
