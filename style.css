@@ -1,3 +1,8 @@
+:root {
+  --primary: #ddd;
+  --dark: #0f0f0f;
+  --light: #fff;
+  
 
 /*  ---------------------- */
 /* Body Styles */
@@ -93,7 +98,7 @@ header img {
   display: grid;
   align-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  background-image: url ('images/wallpaper.jpg');
+  background: url ('images/wallpaper.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
