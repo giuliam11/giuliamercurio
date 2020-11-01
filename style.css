@@ -93,9 +93,8 @@ header img {
   display: grid;
   align-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  color: #000;
-
-background-repeat: no-repeat;
+  background-image: url ('images/wallpaper.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: var(--light);
@@ -120,11 +119,11 @@ background-repeat: no-repeat;
   margin-bottom: 0.3em;
 }
 
-/* .hero p {
+.hero p {
 font-size: 60px;
     align-self: end;
     margin: .3em;
-} */
+}
 
 
 
@@ -206,21 +205,21 @@ font-size: 60px;
 
 .card-1 {
   grid-area: one;
-background-image: url('images/nacho-rochon-CG7YwmRDGvI-unsplash.jpg');
+background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-2 {
   grid-area: two;
-  background-image: url('images/nacho-rochon-CG7YwmRDGvI-unsplash.jpg');
+  background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-3 {
   grid-area: three;
-  background-image: url('images/nacho-rochon-CG7YwmRDGvI-unsplash.jpg');
+  background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
