@@ -157,15 +157,12 @@ header img {
 
 .about-card {
   display: grid;
- ì
   border-radius: 10px;
-  
   font-weight: 700;
   font-size: 40px;
   text-align: left;
   box-shadow: 
   align-content: end;
-
   transition: var(--transition);
   -webkit-transition: var(--transition);
 }
@@ -211,7 +208,7 @@ header img {
 
 .card-1 {
   grid-area: one;
-  background-image: url('images/aboutt.jpg');
+  background-image: url('images/about1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -220,14 +217,14 @@ header img {
 
 .card-2 {
   grid-area: two;
-  background-image: url('images/aboutt.jpg');
+  background-image: url('images/about1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-3 {
   grid-area: three;
-  background-image: url('images/aboutt.jpg');
+  background-image: url('images/about1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
