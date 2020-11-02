@@ -1,16 +1,4 @@
-/* CSS Variables */
-:root {
-  --primary: #ddd;
-  --dark: #0f0f0f;
-  --dark2: #141516;
-  --light: #fff;
-  --grey: rgb(233, 233, 233);
-  --shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
-  --box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.08);
-  --purple: #4b2db1;
-  --transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
-  --gradient: linear-gradient(73deg, rgba(75, 45, 176, 1), hsl(257, 53%, 56%));
-}
+
 
 /*  ---------------------- */
 /* Body Styles */
@@ -133,7 +121,7 @@ header img {
   font-size: 58px;
   margin-top: 0;
   margin-bottom: 0.3em;
-  color: #000;
+  
 }
 
 /* .hero p {
@@ -226,6 +214,9 @@ header img {
   background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+.card-1:hover {
+  opacity: 1.0;
 }
 
 .card-2 {
