@@ -97,13 +97,13 @@ header img {
 .hero-section {
   display: grid;
   align-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+ 
   background: url('images/wallpaper.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: var(--light);
+
   text-align: center;
   margin: 0 0;
   min-height: 500px;
@@ -157,13 +157,13 @@ header img {
 
 .about-card {
   display: grid;
-  background: var(--gradient);
+ ì
   border-radius: 10px;
-  color: var(--light);
+  
   font-weight: 700;
   font-size: 40px;
   text-align: left;
-  box-shadow: var(--shadow);
+  box-shadow: 
   align-content: end;
 
   transition: var(--transition);
@@ -211,7 +211,7 @@ header img {
 
 .card-1 {
   grid-area: one;
-  background-image: url('images/about.jpg');
+  background-image: url('images/aboutt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -220,14 +220,14 @@ header img {
 
 .card-2 {
   grid-area: two;
-  background-image: url('images/about.jpg');
+  background-image: url('images/aboutt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-3 {
   grid-area: three;
-  background-image: url('images/about.jpg');
+  background-image: url('images/aboutt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
