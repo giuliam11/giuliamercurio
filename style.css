@@ -10,6 +10,16 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+/*---------------SCROLLBAR-----------------*/
+#no-scrollbar{overflow-y: hidden;} /*Gestione scrollbar al loading con script*/
+
+/*Custom style scrollbar*/
+::-webkit-scrollbar {width: 10px; border-radiuds: .25rem;}
+::-webkit-scrollbar-track{background: #1A193A;}
+
+/*Handle*/
+::-webkit-scrollbar-thumb{background: white; border-radius: .25rem;}
+::-webkit-scrollbar-thumb:hover{background: rgb(255,255,255, 0.5);}
 
 /*  ---------------------- */
 /* Header / Navigation Section */
