@@ -263,15 +263,13 @@ header img {
     margin-right: auto;
   
   .me figcaption {
-    display: block;
+    display: flex;
     text-align: center;
 }
   
-.contatti {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: -10px;
+#social-icons {
+ display: flex;
+ justify-content: center;
 
 }
 
@@ -288,7 +286,6 @@ header img {
 /*  ---------------------- */
 footer {
   text-align: center;
-  color: var(--dark);
   font-weight: 400;
   font-size: 12px;
   margin: 2em;
