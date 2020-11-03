@@ -171,7 +171,7 @@ header img {
   border-radius: 10px;
   font-weight: 700;
   font-size: 40px;
-  text-align: left;
+  text-align: right;
   box-shadow: var(--shadow);
   align-content: end;
   transition: var(--transition);
