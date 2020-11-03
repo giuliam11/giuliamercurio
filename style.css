@@ -266,6 +266,7 @@ header img {
     display: block;
     text-align: center;
 }
+  
 #social icons {
   display: block;
   align-items: center;
@@ -280,10 +281,10 @@ header img {
 
 
 .contatti a{
- padding: 0 15px;
-  display: block;
-  align-items: center;
+  padding: 0 15px;
+  
   }
+  
 .contatti a:hover{opacity: 0.5;}
 
 
