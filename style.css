@@ -219,7 +219,7 @@ header img {
 
 .card-1 {
   grid-area: one;
-  background-image: url('images/about1.jpg');
+  background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -228,14 +228,14 @@ header img {
 
 .card-2 {
   grid-area: two;
-  background-image: url('images/about1.jpg');
+  background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-3 {
   grid-area: three;
-  background-image: url('images/about1.jpg');
+  background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
