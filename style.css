@@ -268,7 +268,7 @@ header img {
     margin-right: auto;
 }
   
-#social-icons {
+.contatti {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
