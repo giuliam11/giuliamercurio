@@ -264,6 +264,7 @@ header img {
   
   figcaption {
     display: block;
+    text-align: center;
 }
 #social icons {
   display: block;
@@ -279,7 +280,10 @@ header img {
 
 
 .contatti a{
- padding: 0 15px;}
+ padding: 0 15px;
+  display: block;
+  align-items: center;
+  }
 .contatti a:hover{opacity: 0.5;}
 
 
@@ -290,7 +294,6 @@ header img {
 
 footer {
   text-align: center;
-  
   font-weight: 400;
   font-size: 12px;
   margin: 2em;
@@ -306,7 +309,7 @@ footer {
 }
 
 @media screen and (max-width: 799px) {
-  .work-grid {
+  .about-grid {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(340px, auto);
     row-gap: 4em;
@@ -320,7 +323,7 @@ footer {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1260px) {
-  .work-grid {
+  .about-grid {
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-auto-rows: minmax(340px, auto);
     margin-right: auto;
