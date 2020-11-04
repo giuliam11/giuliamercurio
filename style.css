@@ -262,24 +262,6 @@ header img {
     margin-left: auto;
     margin-right: auto;
   
-  .me figcaption {
-    display: flex;
-    text-align: center;
-}
-  
-#social-icons {
- display: flex;
- justify-content: center;
-
-}
-
-
-.contatti a{padding: 0 15px;}
-.contatti a:hover{opacity: 0.5;}
-  
-
-
-
 
 /*  ---------------------- */
 /* Footer Section */
