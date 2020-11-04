@@ -263,17 +263,32 @@ header img {
     margin-right: auto;
   
 
+
+#social icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 5%;
+}
+
+
+.contatti a{
+ padding: 0 15px;}
+.contatti a:hover{opacity: 0.5;}
+
+
 /*  ---------------------- */
 /* Footer Section */
 /*  ---------------------- */
 
-  footer {
+footer {
   text-align: center;
+  color: var(--dark);
   font-weight: 400;
   font-size: 12px;
   margin: 2em;
 }
-
 
 
 /*  ---------------------- */
