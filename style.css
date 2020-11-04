@@ -273,16 +273,16 @@ header img {
 }
 
 
-.contatti a{
+#social-icons a{
  padding: 0 15px;}
-.contatti a:hover{opacity: 0.5;}
+#social-icons a:hover{opacity: 0.5;}
 
 
 /*  ---------------------- */
 /* Footer Section */
 /*  ---------------------- */
 
-footer {
+.the-end {
   text-align: center;
   color: var(--dark);
   font-weight: 400;
