@@ -269,11 +269,9 @@ header img {
 
 
 #social icons {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding-bottom: 5%;
+    display: block;
+		margin: 0 auto 24px;
+		float:none;
 }
 
 
