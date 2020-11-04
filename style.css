@@ -257,27 +257,6 @@ header img {
   pointer-events: none;
 }
 
-.me img{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-
-
-#social icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding-bottom: 5%;
-}
-
-
-#social-icons a{
- padding: 0 15px;}
-#social-icons a:hover{opacity: 0.5;}
-
-
 /*  ---------------------- */
 /* Footer Section */
 /*  ---------------------- */
