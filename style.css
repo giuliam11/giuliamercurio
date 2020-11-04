@@ -268,10 +268,10 @@ header img {
 }
 
 
-#social icons {
+.contatti {
     display: block;
-		margin: 0 auto 24px;
-		float:none;
+    margin: 0 auto 24px;
+    float:none;
 }
 
 
